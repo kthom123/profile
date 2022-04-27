@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Radio+Canada:wght@300&display=swap');
+body {
+  background-image: url('images/space.jpeg');
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 15px;
+  line-height: 1.0;
+}
+
+h1, h2 {
+  font-family: 'Exo 2', sans-serif;
+  color: rgb(211, 211, 238);
+  font-size: 20px;
+  line-height: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.card-blue {
+  background-color: #8bb3e994;
+  width: 400px;
+  border-radius: 53%;
+  margin: 37px auto;
+  padding: 36px 24px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgb(0 0 0 / 30%);
+}
+
+.img-rounded {
+  width: 300px;
+  border-radius: 10%;
+}
+
+a.btn-blue {
+  padding: 16px 24px;
+  border-radius: 4px;
+  display: inline-block;
+  color: rgb(240,240,240);
+  background-color: #4f77f9;
+}
+
+a.btn-blue:hover {
+  background-color: #19887e;
+  color: rgb(40,40,40);
+  transition: .3s;
+}
+
+ul.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+ul.list-inline li {
+  display: inline;
+}
+
+ul.list-inline a {
+  font-size: 20px;
+  color: rgba(100,100,100);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
